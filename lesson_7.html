@@ -10,10 +10,44 @@
 <body>
 
     <form>
-        <input type="text" placeholder="Enter your Name"><br><br>
-        <input type="password" placeholder="Enter password"><br><br>
-        <input type="email" placeholder="Enter email"><br><br>
-        <input type="number" placeholder="Enter Number"><br><br>
+        <h1>Amal Jyothi College of Engineering</h1>
+        <input type="text" required placeholder="Enter your Full Name"><br><br>
+        <input type="email" placeholder="Enter Email"><br><br>
+        <input type="password" required placeholder="Enter password"><br><br>
+        <input type="number" placeholder="Enter Age"><br><br>
+        <label for="dob">Enter Date of Birth:</label>
+        <input type="date" id="dob"><br><br>
+        <label for="gender">Enter Gender:</label>
+        <input type="radio" id="gender" name="gender">Male
+        <input type="radio" name="gender">Female<br><br>
+
+        <table>
+
+            <label>Enter Skills:</label>
+            <ol>
+                <label>Python:</label><input type="checkbox"><br><br>
+                <label>Java:</label><input type="checkbox"><br><br>
+                <label>HTML:</label><input type="checkbox"><br><br>
+                <label>CSS:</label><input type="checkbox">
+            </ol>
+        </table>
+
+        <br><br>
+        <label for="sele">Select Department:</label>
+        <select id="sele">
+            <option>Computer Science</option>
+            <option selected>AI</option>
+            <option>Information Technology</option>
+        </select><br><br>
+        <label for="address">Enter Address:</label>
+        <textarea id="address" rows="3"></textarea>
+        <br><br>
+        <label>Upload Resume:</label><input type="file"><br><br>
+        <label>Pick your Favorite Color:</label><input type="color"><br><br>
+        <label>Enter your form satisfaction rate:</label><input type="range"><br><br>
+
+        <input type="submit">
+        <input type="reset"><br><br>
 
     </form>
 
