@@ -1,0 +1,10 @@
+h1 {
+    color: snow;
+    text-align: center;
+}
+
+/*This is to change the labels*/
+label {
+    color: aqua;
+    font-size: 20px;
+}
